@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "568520040394",
+    "firebase_url": "https://wedeynear-dcf63.firebaseio.com",
+    "project_id": "wedeynear-dcf63",
+    "storage_bucket": "wedeynear-dcf63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568520040394:android:a856b0ef3a48e59e773933",
+        "android_client_info": {
+          "package_name": "com.wedeynear"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568520040394-f857016e382sn9p99bfha1rcjg4mbu0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wedeynear",
+            "certificate_hash": "08a85e0162e48f807a2d1f28c8386222b035fad1"
+          }
+        },
+        {
+          "client_id": "568520040394-o4n730i9j2gca99rovf8trtnjp9n7tol.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wedeynear",
+            "certificate_hash": "c1f885fe6ad50cd968a34d44c27ceeaa550e3583"
+          }
+        },
+        {
+          "client_id": "568520040394-0cfhbheglj4gleor8bncfvq4c3m5otli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF9za1a2CGmHuVjsHPd0r0_4968oI4OFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568520040394-0cfhbheglj4gleor8bncfvq4c3m5otli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

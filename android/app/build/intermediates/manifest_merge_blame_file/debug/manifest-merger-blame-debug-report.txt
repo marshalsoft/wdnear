@@ -1,0 +1,978 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.wedeynear"
+4    android:versionCode="8004"
+5    android:versionName="1.7" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:3:1-63
+11-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:3:18-60
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:4:1-75
+12-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:4:18-72
+13    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+13-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:5:1-73
+13-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:5:18-71
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:6:1-76
+14-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:6:18-74
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:7:1-74
+15-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:7:18-72
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:8:1-71
+16-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:8:18-69
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:9:1-70
+17-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:9:18-68
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:10:1-60
+18-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:10:18-58
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:11:1-76
+19-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:11:18-73
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:12:1-77
+20-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:12:18-74
+21    <uses-permission android:name="android.permission.READ_CONTACTS" />
+21-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:13:1-68
+21-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:13:18-65
+22    <uses-permission android:name="android.permission.READ_PROFILE" />
+22-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:14:1-67
+22-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:14:18-64
+23    <uses-permission android:name="android.permission.VIBRATE" />
+23-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:15:5-66
+23-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:15:22-63
+24    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+24-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:16:5-80
+24-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:16:22-78
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+25-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+26    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+26-->[:react-native-biometrics] /Users/sammy/Documents/wedeynear/node_modules/react-native-biometrics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-72
+26-->[:react-native-biometrics] /Users/sammy/Documents/wedeynear/node_modules/react-native-biometrics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-69
+27    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+27-->[:react-native-biometrics] /Users/sammy/Documents/wedeynear/node_modules/react-native-biometrics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-74
+27-->[:react-native-biometrics] /Users/sammy/Documents/wedeynear/node_modules/react-native-biometrics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-71
+28
+29    <queries>
+29-->[:react-native-image-crop-picker] /Users/sammy/Documents/wedeynear/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+30        <intent>
+30-->[:react-native-image-crop-picker] /Users/sammy/Documents/wedeynear/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+31            <action android:name="android.media.action.IMAGE_CAPTURE" />
+31-->[:react-native-image-crop-picker] /Users/sammy/Documents/wedeynear/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+31-->[:react-native-image-crop-picker] /Users/sammy/Documents/wedeynear/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+32        </intent>
+33    </queries> <!-- Required to access Google Play Licensing -->
+34    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+34-->[:rn-fetch-blob] /Users/sammy/Documents/wedeynear/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
+34-->[:rn-fetch-blob] /Users/sammy/Documents/wedeynear/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
+35
+36    <uses-feature
+36-->[:react-native-camera] /Users/sammy/Documents/wedeynear/node_modules/react-native-camera/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:36
+37        android:name="android.hardware.camera"
+37-->[:react-native-camera] /Users/sammy/Documents/wedeynear/node_modules/react-native-camera/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-47
+38        android:required="false" />
+38-->[:react-native-camera] /Users/sammy/Documents/wedeynear/node_modules/react-native-camera/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-33
+39    <uses-feature
+39-->[:react-native-camera] /Users/sammy/Documents/wedeynear/node_modules/react-native-camera/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-16:36
+40        android:name="android.hardware.camera.autofocus"
+40-->[:react-native-camera] /Users/sammy/Documents/wedeynear/node_modules/react-native-camera/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-57
+41        android:required="false" />
+41-->[:react-native-camera] /Users/sammy/Documents/wedeynear/node_modules/react-native-camera/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-33
+42
+43    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+43-->[net.gotev:uploadservice:4.7.0] /Users/sammy/.gradle/caches/transforms-3/b3286509307f776652e239f4f29cec7e/transformed/jetified-uploadservice-4.7.0/AndroidManifest.xml:10:5-77
+43-->[net.gotev:uploadservice:4.7.0] /Users/sammy/.gradle/caches/transforms-3/b3286509307f776652e239f4f29cec7e/transformed/jetified-uploadservice-4.7.0/AndroidManifest.xml:10:22-74
+44    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+44-->[com.google.android.gms:play-services-iid:17.0.0] /Users/sammy/.gradle/caches/transforms-3/beb166298592c58f7e0f4471d26e979a/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+44-->[com.google.android.gms:play-services-iid:17.0.0] /Users/sammy/.gradle/caches/transforms-3/beb166298592c58f7e0f4471d26e979a/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+45
+46    <uses-feature
+46-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sammy/.gradle/caches/transforms-3/4cc523e23a16dd74dfcc66f6fec27db0/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+47        android:glEsVersion="0x00020000"
+47-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sammy/.gradle/caches/transforms-3/4cc523e23a16dd74dfcc66f6fec27db0/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+48        android:required="true" /> <!-- for android -->
+48-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sammy/.gradle/caches/transforms-3/4cc523e23a16dd74dfcc66f6fec27db0/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+49    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+50    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+51    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+52    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+53    <!-- for Samsung -->
+54    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+55    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+56    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+57    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+58    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+59    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+60    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+60-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+60-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+61    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+61-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+61-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+62    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+62-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+62-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+63    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+63-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+63-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+64    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+64-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+64-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+65    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+65-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+65-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+66    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+66-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+66-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+67    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+67-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+67-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+68    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+68-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+68-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+69    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+69-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+69-->[me.leolin:ShortcutBadger:1.1.22] /Users/sammy/.gradle/caches/transforms-3/c3bb592521dc270b7b8d47b418583220/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+70    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+70-->[com.android.installreferrer:installreferrer:1.1.2] /Users/sammy/.gradle/caches/transforms-3/a622069385a2641d29c0ba6a99f1ef50/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+70-->[com.android.installreferrer:installreferrer:1.1.2] /Users/sammy/.gradle/caches/transforms-3/a622069385a2641d29c0ba6a99f1ef50/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+71
+72    <application
+72-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:17:5-74:19
+73        android:name="com.wedeynear.MainApplication"
+73-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:18:7-38
+74        android:allowBackup="false"
+74-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:21:7-34
+75        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+75-->[androidx.core:core:1.6.0] /Users/sammy/.gradle/caches/transforms-3/3dd98956f2e3a338e2ea69c3b854683f/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+76        android:debuggable="true"
+77        android:grantUriPermissions="true"
+77-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:24:7-41
+78        android:icon="@mipmap/ic_launcher"
+78-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:20:7-41
+79        android:label="@string/app_name"
+79-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:19:7-39
+80        android:supportsRtl="true"
+80-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:25:7-33
+81        android:theme="@style/AppTheme"
+81-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:22:7-38
+82        android:usesCleartextTraffic="true" >
+82-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:23:7-42
+83        <activity
+83-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:27:7-38:18
+84            android:name="com.wedeynear.MainActivity"
+84-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:29:9-37
+85            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+85-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:31:9-86
+86            android:label="@string/app_name"
+86-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:30:9-41
+87            android:launchMode="singleTask"
+87-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:32:9-40
+88            android:screenOrientation="portrait"
+88-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:28:9-45
+89            android:windowSoftInputMode="adjustResize" >
+89-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:33:9-51
+90            <intent-filter>
+90-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:34:9-37:25
+91                <action android:name="android.intent.action.MAIN" />
+91-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:35:13-65
+91-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:35:21-62
+92
+93                <category android:name="android.intent.category.LAUNCHER" />
+93-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:36:13-73
+93-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:36:23-70
+94            </intent-filter>
+95        </activity>
+96
+97        <meta-data
+97-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:39:9-40:43
+98            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+98-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:39:21-97
+99            android:value="true" />
+99-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:40:21-41
+100        <!-- Change the resource name to your App's accent color - or any other color you want -->
+101        <meta-data
+101-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:42:9-43:54
+102            android:name="com.dieam.reactnativepushnotification.notification_color"
+102-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:42:21-92
+103            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+103-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:43:21-52
+104
+105        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+105-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:45:9-108
+105-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:45:19-105
+106        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+106-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:46:9-110
+106-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:46:19-107
+107        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
+107-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:47:9-53:20
+107-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:47:19-115
+108            <intent-filter>
+108-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:48:13-52:29
+109                <action android:name="android.intent.action.BOOT_COMPLETED" />
+109-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:49:17-79
+109-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:49:25-76
+110                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+110-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:50:17-82
+110-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:50:25-79
+111                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+111-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:51:17-81
+111-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:51:25-79
+112            </intent-filter>
+113        </receiver>
+114
+115        <meta-data
+115-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:54:3-56:63
+116            android:name="com.google.android.geo.API_KEY"
+116-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:55:6-51
+117            android:value="AIzaSyD9l_dK7T-zV40LYZrmsoFTcsyfQ_em18g" />
+117-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:56:6-61
+118
+119        <service
+119-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:57:9-63:19
+120            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+120-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:58:13-107
+121            android:exported="false" >
+121-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:59:13-37
+122            <intent-filter>
+122-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:60:13-62:29
+123                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+123-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:61:17-78
+123-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:61:25-75
+124            </intent-filter>
+125        </service>
+126
+127        <provider
+127-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:64:9-73:13
+128            android:name="com.vinzscam.reactnativefileviewer.FileProvider"
+128-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:65:3-65
+129            android:authorities="com.wedeynear.provider"
+129-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:66:3-47
+130            android:exported="false"
+130-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:67:3-27
+131            android:grantUriPermissions="true" >
+131-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:68:3-37
+132            <meta-data
+132-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:69:3-72:5
+133                android:name="android.support.FILE_PROVIDER_PATHS"
+133-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:70:4-54
+134                android:resource="@xml/file_viewer_provider_paths" />
+134-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:71:4-54
+135        </provider>
+136
+137        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+137-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-111
+137-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-108
+138        <service
+138-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
+139            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+139-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
+140            android:exported="false" >
+140-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+141            <intent-filter>
+141-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:60:13-62:29
+142                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+142-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:61:17-78
+142-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:61:25-75
+143            </intent-filter>
+144        </service>
+145
+146        <receiver
+146-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
+147            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+147-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
+148            android:exported="true"
+148-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+149            android:permission="com.google.android.c2dm.permission.SEND" >
+149-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
+150            <intent-filter>
+150-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+151                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+151-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+151-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+152            </intent-filter>
+153        </receiver>
+154
+155        <meta-data
+155-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
+156            android:name="firebase_messaging_auto_init_enabled"
+156-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
+157            android:value="true" />
+157-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
+158        <meta-data
+158-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
+159            android:name="com.google.firebase.messaging.default_notification_channel_id"
+159-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
+160            android:value="" />
+160-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
+161        <meta-data
+161-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:47
+162            android:name="com.google.firebase.messaging.default_notification_color"
+162-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
+163            android:resource="@color/white" />
+163-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-44
+164        <meta-data
+164-->[:@react-native-firebase_app] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:36
+165            android:name="app_data_collection_default_enabled"
+165-->[:@react-native-firebase_app] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+166            android:value="true" />
+166-->[:@react-native-firebase_app] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-33
+167
+168        <service
+168-->[:@react-native-firebase_app] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:19
+169            android:name="com.google.firebase.components.ComponentDiscoveryService"
+169-->[:@react-native-firebase_app] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-89
+170            android:directBootAware="true"
+170-->[com.google.firebase:firebase-common:20.0.0] /Users/sammy/.gradle/caches/transforms-3/5973bcd119bdfecf1e61c2acef299f90/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+171            android:exported="false" >
+171-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+172            <meta-data
+172-->[:@react-native-firebase_app] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:85
+173                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+173-->[:@react-native-firebase_app] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-120
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[:@react-native-firebase_app] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-82
+175            <meta-data
+175-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+176                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+176-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+178            <meta-data
+178-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sammy/.gradle/caches/transforms-3/3d3ddd51acc402945d931385dc7ece3e/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+179                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+179-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sammy/.gradle/caches/transforms-3/3d3ddd51acc402945d931385dc7ece3e/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sammy/.gradle/caches/transforms-3/3d3ddd51acc402945d931385dc7ece3e/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+181            <meta-data
+181-->[com.google.firebase:firebase-storage:20.0.0] /Users/sammy/.gradle/caches/transforms-3/4786e4532d7b37aa81f1ca4562eca297/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+182                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+182-->[com.google.firebase:firebase-storage:20.0.0] /Users/sammy/.gradle/caches/transforms-3/4786e4532d7b37aa81f1ca4562eca297/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+183                android:value="com.google.firebase.components.ComponentRegistrar" />
+183-->[com.google.firebase:firebase-storage:20.0.0] /Users/sammy/.gradle/caches/transforms-3/4786e4532d7b37aa81f1ca4562eca297/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+184            <meta-data
+184-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/sammy/.gradle/caches/transforms-3/3647ba4c0729c7e38eb352603b1821d0/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+185                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+185-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/sammy/.gradle/caches/transforms-3/3647ba4c0729c7e38eb352603b1821d0/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+186                android:value="com.google.firebase.components.ComponentRegistrar" />
+186-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/sammy/.gradle/caches/transforms-3/3647ba4c0729c7e38eb352603b1821d0/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+187            <meta-data
+187-->[com.google.firebase:firebase-installations:17.0.0] /Users/sammy/.gradle/caches/transforms-3/20672155fea8d167eaf51d8ef2e613b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+188                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+188-->[com.google.firebase:firebase-installations:17.0.0] /Users/sammy/.gradle/caches/transforms-3/20672155fea8d167eaf51d8ef2e613b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+189                android:value="com.google.firebase.components.ComponentRegistrar" />
+189-->[com.google.firebase:firebase-installations:17.0.0] /Users/sammy/.gradle/caches/transforms-3/20672155fea8d167eaf51d8ef2e613b6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+190        </service>
+191
+192        <provider
+192-->[:@react-native-firebase_app] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-24:38
+193            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+193-->[:@react-native-firebase_app] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-88
+194            android:authorities="com.wedeynear.reactnativefirebaseappinitprovider"
+194-->[:@react-native-firebase_app] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-86
+195            android:exported="false"
+195-->[:@react-native-firebase_app] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+196            android:initOrder="99" />
+196-->[:@react-native-firebase_app] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-35
+197        <provider
+197-->[:react-native-image-crop-picker] /Users/sammy/Documents/wedeynear/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+198            android:name="androidx.core.content.FileProvider"
+198-->[:react-native-image-crop-picker] /Users/sammy/Documents/wedeynear/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-62
+199            android:authorities="com.wedeynear.provider"
+199-->[:react-native-image-crop-picker] /Users/sammy/Documents/wedeynear/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+200            android:exported="false"
+200-->[:react-native-image-crop-picker] /Users/sammy/Documents/wedeynear/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+201            android:grantUriPermissions="true" >
+201-->[:react-native-image-crop-picker] /Users/sammy/Documents/wedeynear/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+202            <meta-data
+202-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:69:3-72:5
+203                android:name="android.support.FILE_PROVIDER_PATHS"
+203-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:70:4-54
+204                android:resource="@xml/provider_paths" />
+204-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:71:4-54
+205        </provider>
+206
+207        <activity
+207-->[:react-native-image-crop-picker] /Users/sammy/Documents/wedeynear/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+208            android:name="com.yalantis.ucrop.UCropActivity"
+208-->[:react-native-image-crop-picker] /Users/sammy/Documents/wedeynear/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+209            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+209-->[:react-native-image-crop-picker] /Users/sammy/Documents/wedeynear/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+210
+211        <provider
+211-->[:react-native-image-picker] /Users/sammy/Documents/wedeynear/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+212            android:name="com.imagepicker.ImagePickerProvider"
+212-->[:react-native-image-picker] /Users/sammy/Documents/wedeynear/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+213            android:authorities="com.wedeynear.imagepickerprovider"
+213-->[:react-native-image-picker] /Users/sammy/Documents/wedeynear/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+214            android:exported="false"
+214-->[:react-native-image-picker] /Users/sammy/Documents/wedeynear/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+215            android:grantUriPermissions="true" >
+215-->[:react-native-image-picker] /Users/sammy/Documents/wedeynear/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+216            <meta-data
+216-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:69:3-72:5
+217                android:name="android.support.FILE_PROVIDER_PATHS"
+217-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:70:4-54
+218                android:resource="@xml/imagepicker_provider_paths" />
+218-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:71:4-54
+219        </provider>
+220        <provider
+220-->[:react-native-webview] /Users/sammy/Documents/wedeynear/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+221            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+221-->[:react-native-webview] /Users/sammy/Documents/wedeynear/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+222            android:authorities="com.wedeynear.fileprovider"
+222-->[:react-native-webview] /Users/sammy/Documents/wedeynear/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+223            android:exported="false"
+223-->[:react-native-webview] /Users/sammy/Documents/wedeynear/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+224            android:grantUriPermissions="true" >
+224-->[:react-native-webview] /Users/sammy/Documents/wedeynear/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+225            <meta-data
+225-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:69:3-72:5
+226                android:name="android.support.FILE_PROVIDER_PATHS"
+226-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:70:4-54
+227                android:resource="@xml/file_provider_paths" />
+227-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:71:4-54
+228        </provider>
+229        <provider
+229-->[:rn-fetch-blob] /Users/sammy/Documents/wedeynear/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
+230            android:name="com.RNFetchBlob.Utils.FileProvider"
+230-->[:rn-fetch-blob] /Users/sammy/Documents/wedeynear/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
+231            android:authorities="com.wedeynear.provider"
+231-->[:rn-fetch-blob] /Users/sammy/Documents/wedeynear/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
+232            android:exported="false"
+232-->[:rn-fetch-blob] /Users/sammy/Documents/wedeynear/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
+233            android:grantUriPermissions="true" >
+233-->[:rn-fetch-blob] /Users/sammy/Documents/wedeynear/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
+234            <meta-data
+234-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:69:3-72:5
+235                android:name="android.support.FILE_PROVIDER_PATHS"
+235-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:70:4-54
+236                android:resource="@xml/provider_paths" />
+236-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:71:4-54
+237        </provider>
+238
+239        <activity
+239-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+240            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+240-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+241            android:excludeFromRecents="true"
+241-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+242            android:exported="true"
+242-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+243            android:launchMode="singleTask"
+243-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+244            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+244-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+245            <intent-filter>
+245-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+246                <action android:name="android.intent.action.VIEW" />
+246-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+246-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+247
+248                <category android:name="android.intent.category.DEFAULT" />
+248-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+248-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+249                <category android:name="android.intent.category.BROWSABLE" />
+249-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+249-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+250
+251                <data
+251-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+252                    android:host="firebase.auth"
+252-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+253                    android:path="/"
+253-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+254                    android:scheme="genericidp" />
+254-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+255            </intent-filter>
+256        </activity>
+257        <activity
+257-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+258            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+258-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+259            android:excludeFromRecents="true"
+259-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+260            android:exported="true"
+260-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+261            android:launchMode="singleTask"
+261-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+262            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+262-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+263            <intent-filter>
+263-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+264                <action android:name="android.intent.action.VIEW" />
+264-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+264-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+265
+266                <category android:name="android.intent.category.DEFAULT" />
+266-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+266-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+267                <category android:name="android.intent.category.BROWSABLE" />
+267-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+267-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+268
+269                <data
+269-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+270                    android:host="firebase.auth"
+270-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+271                    android:path="/"
+271-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+272                    android:scheme="recaptcha" />
+272-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+273            </intent-filter>
+274        </activity>
+275
+276        <service
+276-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+277            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+277-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+278            android:enabled="true"
+278-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+279            android:exported="false" >
+279-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+280            <intent-filter>
+280-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+281                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+281-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+281-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+282
+283                <category android:name="android.intent.category.DEFAULT" />
+283-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+283-->[com.google.firebase:firebase-auth:21.0.1] /Users/sammy/.gradle/caches/transforms-3/d35e1481f3ab2e44e0fd692d3f57643a/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+284            </intent-filter>
+285        </service>
+286
+287        <meta-data
+287-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/sammy/.gradle/caches/transforms-3/6c37044c9dc7eb4d4900b9820c4da2fd/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+288            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+288-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/sammy/.gradle/caches/transforms-3/6c37044c9dc7eb4d4900b9820c4da2fd/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+289            android:value="GlideModule" />
+289-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/sammy/.gradle/caches/transforms-3/6c37044c9dc7eb4d4900b9820c4da2fd/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+290
+291        <activity
+291-->[androidx.biometric:biometric:1.0.1] /Users/sammy/.gradle/caches/transforms-3/0b8ac3da8db06ed8d1becc8138b417c2/transformed/biometric-1.0.1/AndroidManifest.xml:28:9-31:67
+292            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
+292-->[androidx.biometric:biometric:1.0.1] /Users/sammy/.gradle/caches/transforms-3/0b8ac3da8db06ed8d1becc8138b417c2/transformed/biometric-1.0.1/AndroidManifest.xml:29:13-78
+293            android:exported="true"
+293-->[androidx.biometric:biometric:1.0.1] /Users/sammy/.gradle/caches/transforms-3/0b8ac3da8db06ed8d1becc8138b417c2/transformed/biometric-1.0.1/AndroidManifest.xml:30:13-36
+294            android:theme="@style/DeviceCredentialHandlerTheme" />
+294-->[androidx.biometric:biometric:1.0.1] /Users/sammy/.gradle/caches/transforms-3/0b8ac3da8db06ed8d1becc8138b417c2/transformed/biometric-1.0.1/AndroidManifest.xml:31:13-64
+295
+296        <service
+296-->[net.gotev:uploadservice:4.7.0] /Users/sammy/.gradle/caches/transforms-3/b3286509307f776652e239f4f29cec7e/transformed/jetified-uploadservice-4.7.0/AndroidManifest.xml:15:9-18:40
+297            android:name="net.gotev.uploadservice.UploadService"
+297-->[net.gotev:uploadservice:4.7.0] /Users/sammy/.gradle/caches/transforms-3/b3286509307f776652e239f4f29cec7e/transformed/jetified-uploadservice-4.7.0/AndroidManifest.xml:16:13-65
+298            android:enabled="true"
+298-->[net.gotev:uploadservice:4.7.0] /Users/sammy/.gradle/caches/transforms-3/b3286509307f776652e239f4f29cec7e/transformed/jetified-uploadservice-4.7.0/AndroidManifest.xml:17:13-35
+299            android:exported="false" />
+299-->[net.gotev:uploadservice:4.7.0] /Users/sammy/.gradle/caches/transforms-3/b3286509307f776652e239f4f29cec7e/transformed/jetified-uploadservice-4.7.0/AndroidManifest.xml:18:13-37
+300
+301        <provider
+301-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:31:9-37:35
+302            android:name="androidx.work.impl.WorkManagerInitializer"
+302-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:32:13-69
+303            android:authorities="com.wedeynear.workmanager-init"
+303-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:33:13-68
+304            android:directBootAware="false"
+304-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:34:13-44
+305            android:exported="false"
+305-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:35:13-37
+306            android:multiprocess="true" />
+306-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:36:13-40
+307
+308        <service
+308-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:39:9-44:35
+309            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+309-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:40:13-88
+310            android:directBootAware="false"
+310-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:41:13-44
+311            android:enabled="@bool/enable_system_alarm_service_default"
+311-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:42:13-72
+312            android:exported="false" />
+312-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:43:13-37
+313        <service
+313-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:45:9-51:35
+314            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+314-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:46:13-84
+315            android:directBootAware="false"
+315-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:47:13-44
+316            android:enabled="@bool/enable_system_job_service_default"
+316-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:48:13-70
+317            android:exported="true"
+317-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:49:13-36
+318            android:permission="android.permission.BIND_JOB_SERVICE" />
+318-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:50:13-69
+319        <service
+319-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:52:9-57:35
+320            android:name="androidx.work.impl.foreground.SystemForegroundService"
+320-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:53:13-81
+321            android:directBootAware="false"
+321-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:54:13-44
+322            android:enabled="@bool/enable_system_foreground_service_default"
+322-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:55:13-77
+323            android:exported="false" />
+323-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:56:13-37
+324
+325        <receiver
+325-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:59:9-64:35
+326            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+326-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:60:13-88
+327            android:directBootAware="false"
+327-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:61:13-44
+328            android:enabled="true"
+328-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:62:13-35
+329            android:exported="false" />
+329-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:63:13-37
+330        <receiver
+330-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:65:9-75:20
+331            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+331-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:66:13-106
+332            android:directBootAware="false"
+332-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:67:13-44
+333            android:enabled="false"
+333-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:68:13-36
+334            android:exported="false" >
+334-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:69:13-37
+335            <intent-filter>
+335-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:71:13-74:29
+336                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+336-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:72:17-87
+336-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:72:25-84
+337                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+337-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:73:17-90
+337-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:73:25-87
+338            </intent-filter>
+339        </receiver>
+340        <receiver
+340-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:76:9-86:20
+341            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+341-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:77:13-104
+342            android:directBootAware="false"
+342-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:78:13-44
+343            android:enabled="false"
+343-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:79:13-36
+344            android:exported="false" >
+344-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:80:13-37
+345            <intent-filter>
+345-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:82:13-85:29
+346                <action android:name="android.intent.action.BATTERY_OKAY" />
+346-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:83:17-77
+346-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:83:25-74
+347                <action android:name="android.intent.action.BATTERY_LOW" />
+347-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:84:17-76
+347-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:84:25-73
+348            </intent-filter>
+349        </receiver>
+350        <receiver
+350-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:87:9-97:20
+351            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+351-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:88:13-104
+352            android:directBootAware="false"
+352-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:89:13-44
+353            android:enabled="false"
+353-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:90:13-36
+354            android:exported="false" >
+354-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:91:13-37
+355            <intent-filter>
+355-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:93:13-96:29
+356                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+356-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:94:17-83
+356-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:94:25-80
+357                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+357-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:95:17-82
+357-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:95:25-79
+358            </intent-filter>
+359        </receiver>
+360        <receiver
+360-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:98:9-107:20
+361            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+361-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:99:13-103
+362            android:directBootAware="false"
+362-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:100:13-44
+363            android:enabled="false"
+363-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:101:13-36
+364            android:exported="false" >
+364-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:102:13-37
+365            <intent-filter>
+365-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:104:13-106:29
+366                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+366-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:105:17-79
+366-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:105:25-76
+367            </intent-filter>
+368        </receiver>
+369        <receiver
+369-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:108:9-119:20
+370            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+370-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:109:13-88
+371            android:directBootAware="false"
+371-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:110:13-44
+372            android:enabled="false"
+372-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:111:13-36
+373            android:exported="false" >
+373-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:112:13-37
+374            <intent-filter>
+374-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:114:13-118:29
+375                <action android:name="android.intent.action.BOOT_COMPLETED" />
+375-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:49:17-79
+375-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:49:25-76
+376                <action android:name="android.intent.action.TIME_SET" />
+376-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:116:17-73
+376-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:116:25-70
+377                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+377-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:117:17-81
+377-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:117:25-78
+378            </intent-filter>
+379        </receiver>
+380        <receiver
+380-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:120:9-129:20
+381            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+381-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:121:13-99
+382            android:directBootAware="false"
+382-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:122:13-44
+383            android:enabled="@bool/enable_system_alarm_service_default"
+383-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:123:13-72
+384            android:exported="false" >
+384-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:124:13-37
+385            <intent-filter>
+385-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:126:13-128:29
+386                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+386-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:127:17-98
+386-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:127:25-95
+387            </intent-filter>
+388        </receiver>
+389        <receiver
+389-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:130:9-140:20
+390            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+390-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:131:13-78
+391            android:directBootAware="false"
+391-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:132:13-44
+392            android:enabled="true"
+392-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:133:13-35
+393            android:exported="true"
+393-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:134:13-36
+394            android:permission="android.permission.DUMP" >
+394-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:135:13-57
+395            <intent-filter>
+395-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:137:13-139:29
+396                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+396-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:138:17-88
+396-->[androidx.work:work-runtime:2.5.0] /Users/sammy/.gradle/caches/transforms-3/4fba74056a1d3748cc6a17989bb0d9d4/transformed/work-runtime-2.5.0/AndroidManifest.xml:138:25-85
+397            </intent-filter>
+398        </receiver>
+399
+400        <service
+400-->[androidx.room:room-runtime:2.2.5] /Users/sammy/.gradle/caches/transforms-3/ded295d32ec96994b91bb3f94a9196b3/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+401            android:name="androidx.room.MultiInstanceInvalidationService"
+401-->[androidx.room:room-runtime:2.2.5] /Users/sammy/.gradle/caches/transforms-3/ded295d32ec96994b91bb3f94a9196b3/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+402            android:directBootAware="true"
+402-->[androidx.room:room-runtime:2.2.5] /Users/sammy/.gradle/caches/transforms-3/ded295d32ec96994b91bb3f94a9196b3/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+403            android:exported="false" />
+403-->[androidx.room:room-runtime:2.2.5] /Users/sammy/.gradle/caches/transforms-3/ded295d32ec96994b91bb3f94a9196b3/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+404
+405        <receiver
+405-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sammy/.gradle/caches/transforms-3/3d3ddd51acc402945d931385dc7ece3e/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+406            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+406-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sammy/.gradle/caches/transforms-3/3d3ddd51acc402945d931385dc7ece3e/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+407            android:exported="true"
+407-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sammy/.gradle/caches/transforms-3/3d3ddd51acc402945d931385dc7ece3e/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+408            android:permission="com.google.android.c2dm.permission.SEND" >
+408-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sammy/.gradle/caches/transforms-3/3d3ddd51acc402945d931385dc7ece3e/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+409            <intent-filter>
+409-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+410                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+410-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+410-->[:@react-native-firebase_messaging] /Users/sammy/Documents/wedeynear/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+411            </intent-filter>
+412        </receiver>
+413        <!--
+414             FirebaseMessagingService performs security checks at runtime,
+415             but set to not exported to explicitly avoid allowing another app to call it.
+416        -->
+417        <service
+417-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sammy/.gradle/caches/transforms-3/3d3ddd51acc402945d931385dc7ece3e/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+418            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+418-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sammy/.gradle/caches/transforms-3/3d3ddd51acc402945d931385dc7ece3e/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+419            android:directBootAware="true"
+419-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sammy/.gradle/caches/transforms-3/3d3ddd51acc402945d931385dc7ece3e/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+420            android:exported="false" >
+420-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sammy/.gradle/caches/transforms-3/3d3ddd51acc402945d931385dc7ece3e/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+421            <intent-filter android:priority="-500" >
+421-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:60:13-62:29
+422                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+422-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:61:17-78
+422-->/Users/sammy/Documents/wedeynear/android/app/src/main/AndroidManifest.xml:61:25-75
+423            </intent-filter>
+424        </service>
+425
+426        <activity
+426-->[com.google.android.gms:play-services-auth:20.0.0] /Users/sammy/.gradle/caches/transforms-3/ed4c4bface9ea15f1291683ae6864ce6/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:23:9-27:75
+427            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+427-->[com.google.android.gms:play-services-auth:20.0.0] /Users/sammy/.gradle/caches/transforms-3/ed4c4bface9ea15f1291683ae6864ce6/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:24:13-93
+428            android:excludeFromRecents="true"
+428-->[com.google.android.gms:play-services-auth:20.0.0] /Users/sammy/.gradle/caches/transforms-3/ed4c4bface9ea15f1291683ae6864ce6/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:25:13-46
+429            android:exported="false"
+429-->[com.google.android.gms:play-services-auth:20.0.0] /Users/sammy/.gradle/caches/transforms-3/ed4c4bface9ea15f1291683ae6864ce6/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:26:13-37
+430            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+430-->[com.google.android.gms:play-services-auth:20.0.0] /Users/sammy/.gradle/caches/transforms-3/ed4c4bface9ea15f1291683ae6864ce6/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:27:13-72
+431        <!--
+432            Service handling Google Sign-In user revocation. For apps that do not integrate with
+433            Google Sign-In, this service will never be started.
+434        -->
+435        <service
+435-->[com.google.android.gms:play-services-auth:20.0.0] /Users/sammy/.gradle/caches/transforms-3/ed4c4bface9ea15f1291683ae6864ce6/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:33:9-37:51
+436            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+436-->[com.google.android.gms:play-services-auth:20.0.0] /Users/sammy/.gradle/caches/transforms-3/ed4c4bface9ea15f1291683ae6864ce6/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:34:13-89
+437            android:exported="true"
+437-->[com.google.android.gms:play-services-auth:20.0.0] /Users/sammy/.gradle/caches/transforms-3/ed4c4bface9ea15f1291683ae6864ce6/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:35:13-36
+438            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+438-->[com.google.android.gms:play-services-auth:20.0.0] /Users/sammy/.gradle/caches/transforms-3/ed4c4bface9ea15f1291683ae6864ce6/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:36:13-107
+439            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+439-->[com.google.android.gms:play-services-auth:20.0.0] /Users/sammy/.gradle/caches/transforms-3/ed4c4bface9ea15f1291683ae6864ce6/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:37:13-48
+440        <uses-library
+440-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sammy/.gradle/caches/transforms-3/4cc523e23a16dd74dfcc66f6fec27db0/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+441            android:name="org.apache.http.legacy"
+441-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sammy/.gradle/caches/transforms-3/4cc523e23a16dd74dfcc66f6fec27db0/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+442            android:required="false" />
+442-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sammy/.gradle/caches/transforms-3/4cc523e23a16dd74dfcc66f6fec27db0/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+443
+444        <activity
+444-->[com.google.android.gms:play-services-base:18.0.0] /Users/sammy/.gradle/caches/transforms-3/6f65c252ebd288d760027599f5efff1d/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:9-22:45
+445            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+445-->[com.google.android.gms:play-services-base:18.0.0] /Users/sammy/.gradle/caches/transforms-3/6f65c252ebd288d760027599f5efff1d/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:19-85
+446            android:exported="false"
+446-->[com.google.android.gms:play-services-base:18.0.0] /Users/sammy/.gradle/caches/transforms-3/6f65c252ebd288d760027599f5efff1d/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:22:19-43
+447            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+447-->[com.google.android.gms:play-services-base:18.0.0] /Users/sammy/.gradle/caches/transforms-3/6f65c252ebd288d760027599f5efff1d/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:21:19-78
+448
+449        <provider
+449-->[com.google.firebase:firebase-common:20.0.0] /Users/sammy/.gradle/caches/transforms-3/5973bcd119bdfecf1e61c2acef299f90/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+450            android:name="com.google.firebase.provider.FirebaseInitProvider"
+450-->[com.google.firebase:firebase-common:20.0.0] /Users/sammy/.gradle/caches/transforms-3/5973bcd119bdfecf1e61c2acef299f90/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+451            android:authorities="com.wedeynear.firebaseinitprovider"
+451-->[com.google.firebase:firebase-common:20.0.0] /Users/sammy/.gradle/caches/transforms-3/5973bcd119bdfecf1e61c2acef299f90/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+452            android:directBootAware="true"
+452-->[com.google.firebase:firebase-common:20.0.0] /Users/sammy/.gradle/caches/transforms-3/5973bcd119bdfecf1e61c2acef299f90/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+453            android:exported="false"
+453-->[com.google.firebase:firebase-common:20.0.0] /Users/sammy/.gradle/caches/transforms-3/5973bcd119bdfecf1e61c2acef299f90/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+454            android:initOrder="100" />
+454-->[com.google.firebase:firebase-common:20.0.0] /Users/sammy/.gradle/caches/transforms-3/5973bcd119bdfecf1e61c2acef299f90/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+455
+456        <meta-data
+456-->[com.google.android.gms:play-services-basement:18.0.0] /Users/sammy/.gradle/caches/transforms-3/5fecfca3e2194e7d6d6e4578e8c8b3ec/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+457            android:name="com.google.android.gms.version"
+457-->[com.google.android.gms:play-services-basement:18.0.0] /Users/sammy/.gradle/caches/transforms-3/5fecfca3e2194e7d6d6e4578e8c8b3ec/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+458            android:value="@integer/google_play_services_version" />
+458-->[com.google.android.gms:play-services-basement:18.0.0] /Users/sammy/.gradle/caches/transforms-3/5fecfca3e2194e7d6d6e4578e8c8b3ec/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+459
+460        <service
+460-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sammy/.gradle/caches/transforms-3/739e1314bb08d871d38dea210aecb795/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+461            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+461-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sammy/.gradle/caches/transforms-3/739e1314bb08d871d38dea210aecb795/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+462            android:exported="false" >
+462-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sammy/.gradle/caches/transforms-3/739e1314bb08d871d38dea210aecb795/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+463            <meta-data
+463-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sammy/.gradle/caches/transforms-3/739e1314bb08d871d38dea210aecb795/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+464                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+464-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sammy/.gradle/caches/transforms-3/739e1314bb08d871d38dea210aecb795/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+465                android:value="cct" />
+465-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sammy/.gradle/caches/transforms-3/739e1314bb08d871d38dea210aecb795/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+466        </service>
+467        <service
+467-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sammy/.gradle/caches/transforms-3/16dfd56d48c6ee5e2c6699bcbd655555/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+468            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+468-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sammy/.gradle/caches/transforms-3/16dfd56d48c6ee5e2c6699bcbd655555/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+469            android:exported="false"
+469-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sammy/.gradle/caches/transforms-3/16dfd56d48c6ee5e2c6699bcbd655555/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+470            android:permission="android.permission.BIND_JOB_SERVICE" >
+470-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sammy/.gradle/caches/transforms-3/16dfd56d48c6ee5e2c6699bcbd655555/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+471        </service>
+472
+473        <receiver
+473-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sammy/.gradle/caches/transforms-3/16dfd56d48c6ee5e2c6699bcbd655555/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+474            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+474-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sammy/.gradle/caches/transforms-3/16dfd56d48c6ee5e2c6699bcbd655555/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+475            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+475-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sammy/.gradle/caches/transforms-3/16dfd56d48c6ee5e2c6699bcbd655555/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+476        <activity
+476-->[com.google.android.play:core:1.7.3] /Users/sammy/.gradle/caches/transforms-3/75f07e60f5b536c4019f7f69a142d423/transformed/jetified-core-1.7.3/AndroidManifest.xml:12:5-271
+477            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+477-->[com.google.android.play:core:1.7.3] /Users/sammy/.gradle/caches/transforms-3/75f07e60f5b536c4019f7f69a142d423/transformed/jetified-core-1.7.3/AndroidManifest.xml:12:15-102
+478            android:enabled="false"
+478-->[com.google.android.play:core:1.7.3] /Users/sammy/.gradle/caches/transforms-3/75f07e60f5b536c4019f7f69a142d423/transformed/jetified-core-1.7.3/AndroidManifest.xml:12:103-126
+479            android:exported="false"
+479-->[com.google.android.play:core:1.7.3] /Users/sammy/.gradle/caches/transforms-3/75f07e60f5b536c4019f7f69a142d423/transformed/jetified-core-1.7.3/AndroidManifest.xml:12:127-151
+480            android:launchMode="singleInstance"
+480-->[com.google.android.play:core:1.7.3] /Users/sammy/.gradle/caches/transforms-3/75f07e60f5b536c4019f7f69a142d423/transformed/jetified-core-1.7.3/AndroidManifest.xml:12:204-239
+481            android:process=":playcore_missing_splits_activity"
+481-->[com.google.android.play:core:1.7.3] /Users/sammy/.gradle/caches/transforms-3/75f07e60f5b536c4019f7f69a142d423/transformed/jetified-core-1.7.3/AndroidManifest.xml:12:152-203
+482            android:stateNotNeeded="true" />
+482-->[com.google.android.play:core:1.7.3] /Users/sammy/.gradle/caches/transforms-3/75f07e60f5b536c4019f7f69a142d423/transformed/jetified-core-1.7.3/AndroidManifest.xml:12:240-269
+483        <activity
+483-->[com.google.android.play:core:1.7.3] /Users/sammy/.gradle/caches/transforms-3/75f07e60f5b536c4019f7f69a142d423/transformed/jetified-core-1.7.3/AndroidManifest.xml:13:5-226
+484            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+484-->[com.google.android.play:core:1.7.3] /Users/sammy/.gradle/caches/transforms-3/75f07e60f5b536c4019f7f69a142d423/transformed/jetified-core-1.7.3/AndroidManifest.xml:13:15-95
+485            android:enabled="false"
+485-->[com.google.android.play:core:1.7.3] /Users/sammy/.gradle/caches/transforms-3/75f07e60f5b536c4019f7f69a142d423/transformed/jetified-core-1.7.3/AndroidManifest.xml:13:96-119
+486            android:exported="false"
+486-->[com.google.android.play:core:1.7.3] /Users/sammy/.gradle/caches/transforms-3/75f07e60f5b536c4019f7f69a142d423/transformed/jetified-core-1.7.3/AndroidManifest.xml:13:120-144
+487            android:stateNotNeeded="true"
+487-->[com.google.android.play:core:1.7.3] /Users/sammy/.gradle/caches/transforms-3/75f07e60f5b536c4019f7f69a142d423/transformed/jetified-core-1.7.3/AndroidManifest.xml:13:145-174
+488            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+488-->[com.google.android.play:core:1.7.3] /Users/sammy/.gradle/caches/transforms-3/75f07e60f5b536c4019f7f69a142d423/transformed/jetified-core-1.7.3/AndroidManifest.xml:13:175-224
+489        <service
+489-->[com.google.android.play:core:1.7.3] /Users/sammy/.gradle/caches/transforms-3/75f07e60f5b536c4019f7f69a142d423/transformed/jetified-core-1.7.3/AndroidManifest.xml:16:5-145
+490            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+490-->[com.google.android.play:core:1.7.3] /Users/sammy/.gradle/caches/transforms-3/75f07e60f5b536c4019f7f69a142d423/transformed/jetified-core-1.7.3/AndroidManifest.xml:16:14-95
+491            android:enabled="false"
+491-->[com.google.android.play:core:1.7.3] /Users/sammy/.gradle/caches/transforms-3/75f07e60f5b536c4019f7f69a142d423/transformed/jetified-core-1.7.3/AndroidManifest.xml:16:96-119
+492            android:exported="true" />
+492-->[com.google.android.play:core:1.7.3] /Users/sammy/.gradle/caches/transforms-3/75f07e60f5b536c4019f7f69a142d423/transformed/jetified-core-1.7.3/AndroidManifest.xml:16:120-143
+493
+494        <activity
+494-->[co.paystack.android:paystack:3.0.12] /Users/sammy/.gradle/caches/transforms-3/d2a34d3a33469906ca50105ea330ce82/transformed/jetified-paystack-3.0.12/AndroidManifest.xml:12:9-14:63
+495            android:name="co.paystack.android.ui.PinActivity"
+495-->[co.paystack.android:paystack:3.0.12] /Users/sammy/.gradle/caches/transforms-3/d2a34d3a33469906ca50105ea330ce82/transformed/jetified-paystack-3.0.12/AndroidManifest.xml:13:13-62
+496            android:theme="@style/Paystack.Dialog.PinEntry" />
+496-->[co.paystack.android:paystack:3.0.12] /Users/sammy/.gradle/caches/transforms-3/d2a34d3a33469906ca50105ea330ce82/transformed/jetified-paystack-3.0.12/AndroidManifest.xml:14:13-60
+497        <activity
+497-->[co.paystack.android:paystack:3.0.12] /Users/sammy/.gradle/caches/transforms-3/d2a34d3a33469906ca50105ea330ce82/transformed/jetified-paystack-3.0.12/AndroidManifest.xml:15:9-17:63
+498            android:name="co.paystack.android.ui.OtpActivity"
+498-->[co.paystack.android:paystack:3.0.12] /Users/sammy/.gradle/caches/transforms-3/d2a34d3a33469906ca50105ea330ce82/transformed/jetified-paystack-3.0.12/AndroidManifest.xml:16:13-62
+499            android:theme="@style/Paystack.Dialog.OtpEntry" />
+499-->[co.paystack.android:paystack:3.0.12] /Users/sammy/.gradle/caches/transforms-3/d2a34d3a33469906ca50105ea330ce82/transformed/jetified-paystack-3.0.12/AndroidManifest.xml:17:13-60
+500        <activity
+500-->[co.paystack.android:paystack:3.0.12] /Users/sammy/.gradle/caches/transforms-3/d2a34d3a33469906ca50105ea330ce82/transformed/jetified-paystack-3.0.12/AndroidManifest.xml:18:9-20:63
+501            android:name="co.paystack.android.ui.AuthActivity"
+501-->[co.paystack.android:paystack:3.0.12] /Users/sammy/.gradle/caches/transforms-3/d2a34d3a33469906ca50105ea330ce82/transformed/jetified-paystack-3.0.12/AndroidManifest.xml:19:13-63
+502            android:theme="@style/Paystack.Dialog.OtpEntry" />
+502-->[co.paystack.android:paystack:3.0.12] /Users/sammy/.gradle/caches/transforms-3/d2a34d3a33469906ca50105ea330ce82/transformed/jetified-paystack-3.0.12/AndroidManifest.xml:20:13-60
+503        <activity
+503-->[co.paystack.android:paystack:3.0.12] /Users/sammy/.gradle/caches/transforms-3/d2a34d3a33469906ca50105ea330ce82/transformed/jetified-paystack-3.0.12/AndroidManifest.xml:21:9-23:64
+504            android:name="co.paystack.android.ui.CardActivity"
+504-->[co.paystack.android:paystack:3.0.12] /Users/sammy/.gradle/caches/transforms-3/d2a34d3a33469906ca50105ea330ce82/transformed/jetified-paystack-3.0.12/AndroidManifest.xml:22:13-63
+505            android:theme="@style/Paystack.Dialog.CardEntry" />
+505-->[co.paystack.android:paystack:3.0.12] /Users/sammy/.gradle/caches/transforms-3/d2a34d3a33469906ca50105ea330ce82/transformed/jetified-paystack-3.0.12/AndroidManifest.xml:23:13-61
+506    </application>
+507
+508</manifest>

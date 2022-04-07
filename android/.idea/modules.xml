@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.wedeynear.iml" filepath="$PROJECT_DIR$/.idea/modules/android.wedeynear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/294772322/wedeynear.@react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/294772322/wedeynear.@react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-997500027/wedeynear.@react-native-firebase_messaging.iml" filepath="$PROJECT_DIR$/.idea/modules/-997500027/wedeynear.@react-native-firebase_messaging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2047004474/wedeynear.@react-native-picker_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-2047004474/wedeynear.@react-native-picker_picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/wedeynear.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/wedeynear.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-822399257/wedeynear.lottie-react-native.iml" filepath="$PROJECT_DIR$/.idea/modules/-822399257/wedeynear.lottie-react-native.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1920536546/wedeynear.react-native-biometrics.iml" filepath="$PROJECT_DIR$/.idea/modules/1920536546/wedeynear.react-native-biometrics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/52050380/wedeynear.react-native-camera.iml" filepath="$PROJECT_DIR$/.idea/modules/52050380/wedeynear.react-native-camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/537908026/wedeynear.react-native-contacts.iml" filepath="$PROJECT_DIR$/.idea/modules/537908026/wedeynear.react-native-contacts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/14870590/wedeynear.react-native-device-info.iml" filepath="$PROJECT_DIR$/.idea/modules/14870590/wedeynear.react-native-device-info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/294772322/wedeynear.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/294772322/wedeynear.react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-997500027/wedeynear.react-native-firebase_messaging.iml" filepath="$PROJECT_DIR$/.idea/modules/-997500027/wedeynear.react-native-firebase_messaging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1907487679/wedeynear.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/1907487679/wedeynear.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1050672116/wedeynear.react-native-maps.iml" filepath="$PROJECT_DIR$/.idea/modules/1050672116/wedeynear.react-native-maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1199271049/wedeynear.react-native-push-notification.iml" filepath="$PROJECT_DIR$/.idea/modules/-1199271049/wedeynear.react-native-push-notification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1706356995/wedeynear.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-1706356995/wedeynear.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1155900800/wedeynear.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-1155900800/wedeynear.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1141776456/wedeynear.react-native-sound.iml" filepath="$PROJECT_DIR$/.idea/modules/1141776456/wedeynear.react-native-sound.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1537129933/wedeynear.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-1537129933/wedeynear.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-734276489/wedeynear.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/-734276489/wedeynear.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1896958222/wedeynear.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/-1896958222/wedeynear.react-native-webview.iml" />
+    </modules>
+  </component>
+</project>

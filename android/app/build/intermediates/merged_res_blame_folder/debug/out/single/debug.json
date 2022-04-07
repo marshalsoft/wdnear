@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Users/sammy/Documents/wedeynear/android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/sammy/Documents/wedeynear/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sammy/Documents/wedeynear/android/app/build/intermediates/merged_res/debug/mipmap-mdpi_speak.png.flat",
+        "source": "/Users/sammy/Documents/wedeynear/android/app/src/main/res/mipmap-mdpi/speak.png"
+    },
+    {
+        "merged": "/Users/sammy/Documents/wedeynear/android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/sammy/Documents/wedeynear/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sammy/Documents/wedeynear/android/app/build/intermediates/merged_res/debug/drawable_pickeritem.xml.flat",
+        "source": "/Users/sammy/Documents/wedeynear/android/app/src/main/res/drawable/pickeritem.xml"
+    },
+    {
+        "merged": "/Users/sammy/Documents/wedeynear/android/app/build/intermediates/merged_res/debug/drawable_back.xml.flat",
+        "source": "/Users/sammy/Documents/wedeynear/android/app/src/main/res/drawable/back.xml"
+    },
+    {
+        "merged": "/Users/sammy/Documents/wedeynear/android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_speak.png.flat",
+        "source": "/Users/sammy/Documents/wedeynear/android/app/src/main/res/mipmap-xxhdpi/speak.png"
+    },
+    {
+        "merged": "/Users/sammy/Documents/wedeynear/android/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/sammy/Documents/wedeynear/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sammy/Documents/wedeynear/android/app/build/intermediates/merged_res/debug/drawable_spl.png.flat",
+        "source": "/Users/sammy/Documents/wedeynear/android/app/src/main/res/drawable/spl.png"
+    },
+    {
+        "merged": "/Users/sammy/Documents/wedeynear/android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/sammy/Documents/wedeynear/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sammy/Documents/wedeynear/android/app/build/intermediates/merged_res/debug/drawable_logo.png.flat",
+        "source": "/Users/sammy/Documents/wedeynear/android/app/src/main/res/drawable/logo.png"
+    },
+    {
+        "merged": "/Users/sammy/Documents/wedeynear/android/app/build/intermediates/merged_res/debug/xml_file_viewer_provider_paths.xml.flat",
+        "source": "/Users/sammy/Documents/wedeynear/android/app/src/main/res/xml/file_viewer_provider_paths.xml"
+    },
+    {
+        "merged": "/Users/sammy/Documents/wedeynear/android/app/build/intermediates/merged_res/debug/mipmap-hdpi_speak.png.flat",
+        "source": "/Users/sammy/Documents/wedeynear/android/app/src/main/res/mipmap-hdpi/speak.png"
+    },
+    {
+        "merged": "/Users/sammy/Documents/wedeynear/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/sammy/Documents/wedeynear/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sammy/Documents/wedeynear/android/app/build/intermediates/merged_res/debug/drawable_splash.xml.flat",
+        "source": "/Users/sammy/Documents/wedeynear/android/app/src/main/res/drawable/splash.xml"
+    },
+    {
+        "merged": "/Users/sammy/Documents/wedeynear/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_speak.png.flat",
+        "source": "/Users/sammy/Documents/wedeynear/android/app/src/main/res/mipmap-xhdpi/speak.png"
+    }
+]

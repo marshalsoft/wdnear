@@ -1,0 +1,2050 @@
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType, notNext) {
+  if (this.type === tokType) {
+    if (this.options.onTrailingComma)
+      { this.options.onTrailingComma(this.lastTokStart, this.lastTokStartLoc); }
+    if (!notNext)
+      { this.next(); }
+    return true
+  }
+};
+
+// Expect a token of a given type. If found, consume it, otherwise,
+// raise an unexpected token error.
+
+pp.expect = function(type) {
+  this.eat(type) || this.unexpected();
+};
+
+// Raise an unexpected token error.
+
+)) { this.unexpected(); }
+};
+
+pp.afterTrailingComma = function(tokType,
